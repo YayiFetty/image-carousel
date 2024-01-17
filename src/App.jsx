@@ -5,7 +5,7 @@ export default function App() {
     const [images, setImages] = useState([])
     const [current, setCurrent] = useState(0);
 
-    function nextBtn(){
+    function  nextBtn(){
       setCurrent((current) => current >= images.length - 1 ? 0 : current + 1)
     }
     function prevBtn(){

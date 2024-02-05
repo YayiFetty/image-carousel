@@ -22,6 +22,7 @@ export default function App() {
     }
     fetchImage();
   },[])
+  
   return (
     <div className='w-full h-screen bg-slate-500 mx-auto flex items-center'>
     <div className='max-w-md bg-slate-500 rounded-2xl shadow-white shadow-md mx-auto relative'>
